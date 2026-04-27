@@ -101,10 +101,6 @@ export default function Navbar() {
                   {link.name}
                 </Link>
               ))}
-              <div className="pt-4 flex items-center space-x-2 px-3 text-sm text-gray-500">
-                <Phone size={16} />
-                <span>Order via WhatsApp</span>
-              </div>
             </div>
           </motion.div>
         )}

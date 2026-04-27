@@ -75,7 +75,7 @@ export default function Contact() {
           </div>
           <div className="max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8">
             {[
-              { q: 'How do I track my order?', a: 'Once your order is shipped, you will receive a tracking link via WhatsApp and Email.' },
+              { q: 'How do I track my order?', a: 'Once your order is shipped, you will receive a tracking link via Email and SMS.' },
               { q: 'What is your return policy?', a: 'We offer a 7-day hassle-free return policy for all items in original condition.' },
               { q: 'Do you offer Cash on Delivery?', a: 'Yes, we offer COD service across 20,000+ pincodes in India.' },
               { q: 'How do I choose the right size?', a: 'Please refer to our Size Chart on each product page for detailed measurements.' },

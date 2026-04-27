@@ -60,11 +60,6 @@ export default function ProductDetail() {
     }
   };
 
-  const handleWhatsApp = () => {
-    const message = `Hi Pragati Enterprise, I'm interested in the ${product.name} (Size: ${selectedSize}, Color: ${selectedColorName}). Is it available?`;
-    window.open(`https://wa.me/919876543210?text=${encodeURIComponent(message)}`, '_blank');
-  };
-
   return (
     <div className="pt-24 pb-20 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -240,13 +235,6 @@ export default function ProductDetail() {
               >
                 <ShoppingCart size={20} className="mr-3 group-hover:-translate-x-1 transition-transform" />
                 ADD TO CART
-              </button>
-              <button
-                onClick={handleWhatsApp}
-                className="flex items-center justify-center p-5 bg-[#25D366] text-white font-bold rounded-2xl hover:brightness-95 transition-all shadow-xl px-8"
-              >
-                <MessageCircle size={20} className="mr-3" />
-                ORDER ON WHATSAPP
               </button>
             </div>
 
